@@ -1,1 +1,1 @@
-- # [Cripten](https://gumirus.github.io/cripten.git)
+- # [Cripten](https://gumirus.github.io/cripten/)
