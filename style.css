@@ -1,0 +1,238 @@
+/* Стили для верхней шапки */
+header {
+  background: #111E36;
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+  padding: 20px; 
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.NavBar {
+  display: flex; /* Располагаем элементы внутри навигационного меню горизонтально */
+  align-items: center; /* Выравниваем элементы вертикально по центру */
+  padding-right: 250px; /* Добавляем немного правого отступа для разделения от кнопки "Contact Us" */
+}
+
+
+/* Стили для верхней шапки - кнопка Contact Us */
+button.contact-button {
+  background: #E215A7;
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.logo {
+  margin-right: auto; /* Маржа справа автоматически, чтобы выровнять слева */
+}
+
+/* Стили для навигационного меню */
+nav ul {
+  list-style: none; /* Убираем маркеры списка */
+  margin: 0; /* Убираем внешние отступы */
+  padding: 0; /* Убираем внутренние отступы */
+  display: flex; /* Располагаем элементы горизонтально */
+  gap: 20px; /* Расстояние между элементами */
+}
+
+nav li {
+  display: inline;
+}
+
+/* Стили для ссылок в навигационном меню */
+nav a {
+  text-decoration: none; /* Убираем стандартное подчеркивание ссылок */
+  color: #fff; /* Цвет текста ссылок */
+}
+
+/* При нажатии на ссылки, подчеркивание остается */
+nav a:active {
+  border-bottom: 2px solid #fff; /* Цвет и толщина подчеркивания */
+}
+
+/* Стили для основного контента */
+main {
+  background-color: #111E36; /* Цвет фона контента */
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0em;
+}
+
+
+/* Стили для контейнера контента */
+.content {
+  position: relative; /* Устанавливаем позицию как относительную */
+   text-align: center; /* Выравнивание текста по центру */
+  
+  color: #fff; /* Цвет текста белый */
+  font-family: 'DM Sans', sans-serif; /* Шрифт текста */
+  font-weight: 500; /* Жирность текста */
+  font-size: 16px; /* Размер текста */
+  line-height: 26px; /* Межстрочное расстояние */
+  letter-spacing: 0em; /* Межбуквенное расстояние */
+}
+
+
+/* Стили для родительского элемента */
+.content-container {
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  color: white;
+  padding: 0; /* Убираем внутренние отступы */
+  background: url('./img/Group.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column; /* Текст будет располагаться вертикально */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Стили для контейнера с контентом */
+.content-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left; /* Выравнивание текста и кнопки слева */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Выравнивание элементов слева вверху */
+}
+
+/* Стили для заголовка h4 */
+.content-container h4 {
+  color: #FEB109;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: capitalize;
+  margin: 0; /* Убираем внешние отступы у заголовка h4 */
+}
+
+/* Стили для заголовка h1 */
+.content-container h1 {
+  color: #E9EEF4;
+  font-family: 'Syne', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: capitalize;
+  margin: 0; /* Убираем внешние отступы у заголовка h1 */
+}
+
+/* Стили для абзаца p */
+.content-container p {
+  width: 570px;
+  color: #EDEDED;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: lowercase;
+  margin: 0; /* Убираем внешние отступы у абзацев */
+}
+
+/* Стили для кнопки "Get Started" */
+.get-started {
+  background: #E215A7;
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  margin: 0; /* Убираем внешние отступы у кнопки */
+}
+
+.round-button {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Стили для контейнера кнопок */
+.button-container {
+  display: flex; /* Располагаем элементы внутри контейнера горизонтально */
+  justify-content: space-between; /* Равномерно распределяем пространство между элементами */
+  align-items: center; /* Выравниваем элементы по вертикали по центру */
+}
+
+/* Стили для кнопки "Get Started" */
+.get-started {
+  background: #E215A7;
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+/* Стили для круглой кнопки */
+.round-button {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+ 
+  margin-left: 20px; /* Добавляем отступ слева */
+}
+
+/* Стили для круга (Elips) */
+.circle {
+  width: 100%;
+  height: 100%;
+  fill: linear-gradient(314deg, #E215A7 0%, #ED1D2A 100%); /* Цвет круга */
+}
+
+
+/* Фильтр для тени */
+#drop-shadow {
+  filter: drop-shadow(5px 6px 8px rgba(0, 0, 0, 0.28));
+}

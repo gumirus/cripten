@@ -1,0 +1,19 @@
+{
+  "editor.wordWrap": "on",
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 18,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "[html]": {
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.formatOnSave": true 
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  }
+}
