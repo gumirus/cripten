@@ -41,7 +41,7 @@ button.contact-button {
 
 .logo {
   margin-right: auto;
-  margin-left: 70px;
+  margin-left: 120px;
 }
 
 /* Стили для навигационного меню */
@@ -92,16 +92,9 @@ main {
   max-width: 1921px;;
   text-align: center;
   color: #E9EEF4;
-  background: url('./img/Group.png') no-repeat center center;
-  background-size: contain;
-  padding-top: 338px;
+  background: url('./img/Group.png') no-repeat;
   justify-content: center;
-  height: 100vh;
   padding: 229.741px 975.921px 219.83px 375.079px;
-  align-items: center;
-  margin: 0 auto;
-  padding-bottom: 20px;
-  padding-left: 270px;
   text-align: left;
   flex-direction: column;
   align-items: flex-start;
@@ -213,13 +206,12 @@ main {
 .button-container {
   display: flex;
   align-items: center;
-  /* gap: 50px; */
 }
 
 .round-button {
   display: flex;
   align-items: center;
-  margin-right: 390px;
+  margin-right: 290px;
   border: none;
   border-radius: 20%;
   padding: 0;
