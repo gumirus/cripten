@@ -17,9 +17,9 @@ header {
 }
 
 .NavBar {
-  display: flex; /* Располагаем элементы внутри навигационного меню горизонтально */
-  align-items: center; /* Выравниваем элементы вертикально по центру */
-  padding-right: 250px; /* Добавляем немного правого отступа для разделения от кнопки "Contact Us" */
+  display: flex; 
+  align-items: center; 
+  padding-right: 250px; 
 }
 
 
@@ -40,16 +40,17 @@ button.contact-button {
 }
 
 .logo {
-  margin-right: auto; /* Маржа справа автоматически, чтобы выровнять слева */
+  margin-right: auto;
+  margin-left: 70px;
 }
 
 /* Стили для навигационного меню */
 nav ul {
-  list-style: none; /* Убираем маркеры списка */
-  margin: 0; /* Убираем внешние отступы */
-  padding: 0; /* Убираем внутренние отступы */
-  display: flex; /* Располагаем элементы горизонтально */
-  gap: 20px; /* Расстояние между элементами */
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+  display: flex; 
+  gap: 20px; 
 }
 
 nav li {
@@ -92,7 +93,7 @@ main {
   text-align: center;
   color: #E9EEF4;
   background: url('./img/Group.png') no-repeat center center;
-  background-size: cover;
+  background-size: contain;
   padding-top: 338px;
   justify-content: center;
   height: 100vh;
@@ -204,14 +205,6 @@ main {
   margin-left: 20px; 
 }
 
-/* Стили для круга (Elips) */
-.circle {
-  width: 100%;
-  height: 100%;
-  fill: linear-gradient(314deg, #E215A7 0%, #ED1D2A 100%); 
-}
-
-
 /* Фильтр для тени */
 #drop-shadow {
   filter: drop-shadow(5px 6px 8px rgba(0, 0, 0, 0.28));
@@ -220,13 +213,13 @@ main {
 .button-container {
   display: flex;
   align-items: center;
-  gap: 50px;
+  /* gap: 50px; */
 }
 
 .round-button {
   display: flex;
   align-items: center;
-  margin-right: 320px;
+  margin-right: 390px;
   border: none;
   border-radius: 20%;
   padding: 0;
